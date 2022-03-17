@@ -97,7 +97,6 @@ try:
     FILES(accounts, DESIGN.blueaccounts, DESIGN.redaccounts)
 except:
     FILES2("accounts", accounts)
-print(accounts)
 print(f"\n{DESIGN.blueplus} Enter To Start: ", end="")
 input()
 for account in accounts:
